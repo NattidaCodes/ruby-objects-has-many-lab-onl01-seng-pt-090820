@@ -1,6 +1,6 @@
 class Post
 
-  attr_accessor :author, :post, :title
+  attr_accessor :author, :post
 
   @@all = []
 
@@ -14,7 +14,6 @@ class Post
   end
 
   def title
-    @title = title
   end
 
   def author_name
