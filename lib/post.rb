@@ -11,10 +11,6 @@ class Post
     @title = title
   end
 
-  def title
-    @title
-  end
-
   def self.all
     @@all
   end
