@@ -6,8 +6,8 @@ class Post
 
   def initialize(post)
     @post = post
-    @title = title
     @@all << self
+    @title = title
   end
 
   def self.all
