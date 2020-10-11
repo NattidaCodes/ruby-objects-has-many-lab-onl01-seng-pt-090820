@@ -4,10 +4,10 @@ class Post
 
   @@all = []
 
-  def initialize(title, post)
+  def initialize(post)
     @post = post
     @@all << self
-    @title = title
+    @title
   end
 
   def self.all
