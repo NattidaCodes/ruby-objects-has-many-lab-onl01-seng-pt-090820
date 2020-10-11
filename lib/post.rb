@@ -4,7 +4,7 @@ class Post
 
   @@all = []
 
-  def initialize(post, title)
+  def initialize(post, title = nil)
     @post = post
     @@all << self
     @title = title
