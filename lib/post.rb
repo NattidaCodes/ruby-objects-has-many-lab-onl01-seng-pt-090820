@@ -1,4 +1,3 @@
-require 'pry'
 class Post
 
   attr_accessor :author, :post, :title
@@ -6,9 +5,9 @@ class Post
   @@all = []
 
   def initialize(post)
-    binding.pry
     @post = post
     @@all << self
+    @title = title
   end
 
   def self.all
