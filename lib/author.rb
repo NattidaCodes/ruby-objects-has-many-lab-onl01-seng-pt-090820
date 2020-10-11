@@ -21,4 +21,8 @@ class Author
     add_post(author)
   end
 
+  def self.post_count
+    Post.all.count
+  end
+
 end
